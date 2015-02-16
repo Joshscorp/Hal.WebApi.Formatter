@@ -1,0 +1,1073 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hal.WebApi.Formatter.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalLink">
+            <summary>Shim type of Hal.WebApi.Formatter.HalLink</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLink.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLink.#ctor(Hal.WebApi.Formatter.HalLink)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLink.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLink.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.ConstructorStringBooleanStringStringStringStringStringString">
+            <summary>Sets the shim of HalLink.HalLink(String href, Boolean templated, String type, String depreciation, String name, String profile, String title, String hrefLang)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.DepreciationGet">
+            <summary>Sets the shim of HalLink.get_Depreciation()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.HrefGet">
+            <summary>Sets the shim of HalLink.get_Href()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.HrefLangGet">
+            <summary>Sets the shim of HalLink.get_HrefLang()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.NameGet">
+            <summary>Sets the shim of HalLink.get_Name()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.ProfileGet">
+            <summary>Sets the shim of HalLink.get_Profile()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.TemplatedGet">
+            <summary>Sets the shim of HalLink.get_Templated()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.TitleGet">
+            <summary>Sets the shim of HalLink.get_Title()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.TypeGet">
+            <summary>Sets the shim of HalLink.get_Type()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.DepreciationGet">
+            <summary>Sets the shim of HalLink.get_Depreciation()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.HrefGet">
+            <summary>Sets the shim of HalLink.get_Href()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.HrefLangGet">
+            <summary>Sets the shim of HalLink.get_HrefLang()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.NameGet">
+            <summary>Sets the shim of HalLink.get_Name()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.ProfileGet">
+            <summary>Sets the shim of HalLink.get_Profile()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.TemplatedGet">
+            <summary>Sets the shim of HalLink.get_Templated()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.TitleGet">
+            <summary>Sets the shim of HalLink.get_Title()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLink.AllInstances.TypeGet">
+            <summary>Sets the shim of HalLink.get_Type()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie">
+            <summary>Shim type of Hal.WebApi.Formatter.HalLinkCurie</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.#ctor(Hal.WebApi.Formatter.HalLinkCurie)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.ConstructorStringStringBooleanStringStringStringStringString">
+            <summary>Sets the shim of HalLinkCurie.HalLinkCurie(String href, String name, Boolean templated, String type, String depreciation, String profile, String title, String hrefLang)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalLinkCurie.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNode">
+            <summary>Shim type of Hal.WebApi.Formatter.HalNode</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode.#ctor(Hal.WebApi.Formatter.HalNode)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.ConstructorStringObject">
+            <summary>Sets the shim of HalNode.HalNode(String key, Object value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.KeyGet">
+            <summary>Sets the shim of HalNode.get_Key()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.ValueGet">
+            <summary>Sets the shim of HalNode.get_Value()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNode.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.AllInstances.KeyGet">
+            <summary>Sets the shim of HalNode.get_Key()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode.AllInstances.ValueGet">
+            <summary>Sets the shim of HalNode.get_Value()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNode`1">
+            <summary>Shim type of Hal.WebApi.Formatter.HalNode`1</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.#ctor(Hal.WebApi.Formatter.HalNode{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.ConstructorStringT0">
+            <summary>Sets the shim of HalNode`1.HalNode`1(String key, !0 value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.ValueGet">
+            <summary>Sets the shim of HalNode`1.get_Value()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNode`1.AllInstances.ValueGet">
+            <summary>Sets the shim of HalNode`1.get_Value()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNodes">
+            <summary>Shim type of Hal.WebApi.Formatter.HalNodes</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.#ctor(Hal.WebApi.Formatter.HalNodes)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.Generic.ICollection{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.Generic.IList{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.Generic.IReadOnlyCollection{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Bind(System.Collections.Generic.IReadOnlyList{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes.AddStringObject">
+            <summary>Sets the shim of HalNodes.Add(String key, Object value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes.Constructor">
+            <summary>Sets the shim of HalNodes.HalNodes()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNodes.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes.AllInstances.AddStringObject">
+            <summary>Sets the shim of HalNodes.Add(String key, Object value)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1">
+            <summary>Shim type of Hal.WebApi.Formatter.HalNodes`1</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.#ctor(Hal.WebApi.Formatter.HalNodes{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.Generic.ICollection{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.Generic.IEnumerable{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.Generic.IList{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.Generic.IReadOnlyCollection{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Bind(System.Collections.Generic.IReadOnlyList{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.AddT0">
+            <summary>Sets the shim of HalNodes`1.Add(!0 node)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.Constructor">
+            <summary>Sets the shim of HalNodes`1.HalNodes`1()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.ItemGetString">
+            <summary>Sets the shim of HalNodes`1.get_Item(String key)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.AllInstances.AddT0">
+            <summary>Sets the shim of HalNodes`1.Add(!0 node)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalNodes`1.AllInstances.ItemGetString">
+            <summary>Sets the shim of HalNodes`1.get_Item(String key)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources">
+            <summary>Shim type of Hal.WebApi.Formatter.HalReservedEmbeddedResources</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.#ctor(Hal.WebApi.Formatter.HalReservedEmbeddedResources)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.Generic.ICollection{Hal.WebApi.Formatter.HalNode{System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource}}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalNode{System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource}}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.Generic.IList{Hal.WebApi.Formatter.HalNode{System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource}}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.Generic.IReadOnlyCollection{Hal.WebApi.Formatter.HalNode{System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource}}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Bind(System.Collections.Generic.IReadOnlyList{Hal.WebApi.Formatter.HalNode{System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource}}})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.AddStringIEnumerableOfHalResource">
+            <summary>Sets the shim of HalReservedEmbeddedResources.Add(String key, IEnumerable`1&lt;HalResource&gt; value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.Constructor">
+            <summary>Sets the shim of HalReservedEmbeddedResources.HalReservedEmbeddedResources()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedEmbeddedResources.AllInstances.AddStringIEnumerableOfHalResource">
+            <summary>Sets the shim of HalReservedEmbeddedResources.Add(String key, IEnumerable`1&lt;HalResource&gt; value)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks">
+            <summary>Shim type of Hal.WebApi.Formatter.HalReservedLinks</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.#ctor(Hal.WebApi.Formatter.HalReservedLinks)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.Generic.ICollection{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.Generic.IList{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.Generic.IReadOnlyCollection{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Bind(System.Collections.Generic.IReadOnlyList{Hal.WebApi.Formatter.HalNode})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.AddStringObject">
+            <summary>Sets the shim of HalReservedLinks.Add(String key, Object value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.ConstructorHalLinkIEnumerableOfHalLinkCurie">
+            <summary>Sets the shim of HalReservedLinks.HalReservedLinks(HalLink selfLink, IEnumerable`1&lt;HalLinkCurie&gt; curiesLink)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.GetCuriesNode">
+            <summary>Sets the shim of HalReservedLinks.GetCuriesNode()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.GetSelfNode">
+            <summary>Sets the shim of HalReservedLinks.GetSelfNode()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.AllInstances.AddStringObject">
+            <summary>Sets the shim of HalReservedLinks.Add(String key, Object value)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.AllInstances.GetCuriesNode">
+            <summary>Sets the shim of HalReservedLinks.GetCuriesNode()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalReservedLinks.AllInstances.GetSelfNode">
+            <summary>Sets the shim of HalReservedLinks.GetSelfNode()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalResource">
+            <summary>Shim type of Hal.WebApi.Formatter.HalResource</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalResource.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalResource.#ctor(Hal.WebApi.Formatter.HalResource)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalResource.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.ShimHalResource.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.ConstructorHalLinkIEnumerableOfHalLinkCurie">
+            <summary>Sets the shim of HalResource.HalResource(HalLink selfLink, IEnumerable`1&lt;HalLinkCurie&gt; curiesLink)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.ContentGet">
+            <summary>Sets the shim of HalResource.get_Content()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.EmbeddedGet">
+            <summary>Sets the shim of HalResource.get_Embedded()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.LinksGet">
+            <summary>Sets the shim of HalResource.get_Links()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.ShimHalResource.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.AllInstances.ContentGet">
+            <summary>Sets the shim of HalResource.get_Content()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.AllInstances.EmbeddedGet">
+            <summary>Sets the shim of HalResource.get_Embedded()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.ShimHalResource.AllInstances.LinksGet">
+            <summary>Sets the shim of HalResource.get_Links()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalLink">
+            <summary>Stub type of Hal.WebApi.Formatter.HalLink</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalLink.#ctor(System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalLink.InitializeStub">
+            <summary>Initializes a new instance of type StubHalLink</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLink.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLink.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLink.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie">
+            <summary>Stub type of Hal.WebApi.Formatter.HalLinkCurie</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie.#ctor(System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie.InitializeStub">
+            <summary>Initializes a new instance of type StubHalLinkCurie</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalLinkCurie.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalNode">
+            <summary>Stub type of Hal.WebApi.Formatter.HalNode</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNode.#ctor(System.String,System.Object)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNode.InitializeStub">
+            <summary>Initializes a new instance of type StubHalNode</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalNode`1">
+            <summary>Stub type of Hal.WebApi.Formatter.HalNode`1</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNode`1.#ctor(System.String,`0)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNode`1.InitializeStub">
+            <summary>Initializes a new instance of type StubHalNode</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNode`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalNodes">
+            <summary>Stub type of Hal.WebApi.Formatter.HalNodes</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNodes.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNodes.Add(System.String,System.Object)">
+            <summary>Sets the stub of HalNodes.Add(String key, Object value)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Fakes.StubHalNodes.AddStringObject">
+            <summary>Sets the stub of HalNodes.Add(String key, Object value)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNodes.InitializeStub">
+            <summary>Initializes a new instance of type StubHalNodes</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalNodes`1">
+            <summary>Stub type of Hal.WebApi.Formatter.HalNodes`1</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNodes`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalNodes`1.InitializeStub">
+            <summary>Initializes a new instance of type StubHalNodes</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalNodes`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources">
+            <summary>Stub type of Hal.WebApi.Formatter.HalReservedEmbeddedResources</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.Add(System.String,System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalResource})">
+            <summary>Sets the stub of HalReservedEmbeddedResources.Add(String key, IEnumerable`1&lt;HalResource&gt; value)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.AddStringIEnumerableOfHalResource">
+            <summary>Sets the stub of HalReservedEmbeddedResources.Add(String key, IEnumerable`1&lt;HalResource&gt; value)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.InitializeStub">
+            <summary>Initializes a new instance of type StubHalReservedEmbeddedResources</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedEmbeddedResources.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks">
+            <summary>Stub type of Hal.WebApi.Formatter.HalReservedLinks</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.#ctor(Hal.WebApi.Formatter.HalLink,System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalLinkCurie})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.Add(System.String,System.Object)">
+            <summary>Sets the stub of HalReservedLinks.Add(String key, Object value)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.AddStringObject">
+            <summary>Sets the stub of HalReservedLinks.Add(String key, Object value)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.InitializeStub">
+            <summary>Initializes a new instance of type StubHalReservedLinks</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalReservedLinks.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Fakes.StubHalResource">
+            <summary>Stub type of Hal.WebApi.Formatter.HalResource</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalResource.#ctor(Hal.WebApi.Formatter.HalLink,System.Collections.Generic.IEnumerable{Hal.WebApi.Formatter.HalLinkCurie})">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Fakes.StubHalResource.InitializeStub">
+            <summary>Initializes a new instance of type StubHalResource</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalResource.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalResource.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Fakes.StubHalResource.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter">
+            <summary>Shim type of Hal.WebApi.Formatter.Json.HalLinkConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.#ctor(Hal.WebApi.Formatter.Json.HalLinkConverter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.CanConvertType">
+            <summary>Sets the shim of HalLinkConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.Constructor">
+            <summary>Sets the shim of HalLinkConverter.HalLinkConverter()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalLinkConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalLinkConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.AllInstances.CanConvertType">
+            <summary>Sets the shim of HalLinkConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.AllInstances.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalLinkConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalLinkConverter.AllInstances.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalLinkConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter">
+            <summary>Shim type of Hal.WebApi.Formatter.Json.HalNodeConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.#ctor(Hal.WebApi.Formatter.Json.HalNodeConverter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.CanConvertType">
+            <summary>Sets the shim of HalNodeConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.Constructor">
+            <summary>Sets the shim of HalNodeConverter.HalNodeConverter()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalNodeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalNodeConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.AllInstances.CanConvertType">
+            <summary>Sets the shim of HalNodeConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.AllInstances.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalNodeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalNodeConverter.AllInstances.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalNodeConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter">
+            <summary>Shim type of Hal.WebApi.Formatter.Json.HalResourceConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.#ctor(Hal.WebApi.Formatter.Json.HalResourceConverter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.CanConvertType">
+            <summary>Sets the shim of HalResourceConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.Constructor">
+            <summary>Sets the shim of HalResourceConverter.HalResourceConverter()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalResourceConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteContentJsonWriterJsonSerializerHalResource">
+            <summary>Sets the shim of HalResourceConverter.WriteContent(JsonWriter writer, JsonSerializer serializer, HalResource resource)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteCuriesLinkJsonWriterJsonSerializerIEnumerableOfHalLinkCurie">
+            <summary>Sets the shim of HalResourceConverter.WriteCuriesLink(JsonWriter writer, JsonSerializer serializer, IEnumerable`1&lt;HalLinkCurie&gt; curiesLinks)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteEmbeddedPropertyJsonWriterJsonSerializerHalResource">
+            <summary>Sets the shim of HalResourceConverter.WriteEmbeddedProperty(JsonWriter writer, JsonSerializer serializer, HalResource resource)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalResourceConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteLinksPropertyJsonWriterJsonSerializerHalResource">
+            <summary>Sets the shim of HalResourceConverter.WriteLinksProperty(JsonWriter writer, JsonSerializer serializer, HalResource resource)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteOtherLinksJsonWriterJsonSerializerHalResource">
+            <summary>Sets the shim of HalResourceConverter.WriteOtherLinks(JsonWriter writer, JsonSerializer serializer, HalResource resource)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.WriteSelfLinkJsonWriterJsonSerializerHalResource">
+            <summary>Sets the shim of HalResourceConverter.WriteSelfLink(JsonWriter writer, JsonSerializer serializer, HalResource resource)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter._WriteOtherLinksb__0HalNode">
+            <summary>Sets the shim of HalResourceConverter.&lt;WriteOtherLinks&gt;b__0(HalNode i)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.AllInstances.CanConvertType">
+            <summary>Sets the shim of HalResourceConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.AllInstances.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the shim of HalResourceConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimHalResourceConverter.AllInstances.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the shim of HalResourceConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter">
+            <summary>Shim type of Hal.WebApi.Formatter.Json.JsonHalMediaTypeFormatter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.#ctor(Hal.WebApi.Formatter.Json.JsonHalMediaTypeFormatter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.Constructor">
+            <summary>Sets the shim of JsonHalMediaTypeFormatter.JsonHalMediaTypeFormatter()</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.ShimJsonHalMediaTypeFormatter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter">
+            <summary>Stub type of Hal.WebApi.Formatter.Json.HalLinkConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanConvert(System.Type)">
+            <summary>Sets the stub of HalLinkConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanConvertType">
+            <summary>Sets the stub of HalLinkConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanReadGet">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanWriteGet">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.GetSchema">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.GetSchema01">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.InitializeStub">
+            <summary>Initializes a new instance of type StubHalLinkConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalLinkConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the stub of HalLinkConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalLinkConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the stub of HalLinkConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanRead">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.CanWrite">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalLinkConverter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter">
+            <summary>Stub type of Hal.WebApi.Formatter.Json.HalNodeConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanConvert(System.Type)">
+            <summary>Sets the stub of HalNodeConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanConvertType">
+            <summary>Sets the stub of HalNodeConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanReadGet">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanWriteGet">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.GetSchema">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.GetSchema01">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.InitializeStub">
+            <summary>Initializes a new instance of type StubHalNodeConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalNodeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the stub of HalNodeConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalNodeConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the stub of HalNodeConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanRead">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.CanWrite">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalNodeConverter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter">
+            <summary>Stub type of Hal.WebApi.Formatter.Json.HalResourceConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanConvert(System.Type)">
+            <summary>Sets the stub of HalResourceConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanConvertType">
+            <summary>Sets the stub of HalResourceConverter.CanConvert(Type objectType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanReadGet">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanWriteGet">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.GetSchema">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.GetSchema01">
+            <summary>Sets the stub of JsonConverter.GetSchema()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.InitializeStub">
+            <summary>Initializes a new instance of type StubHalResourceConverter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalResourceConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.ReadJsonJsonReaderTypeObjectJsonSerializer">
+            <summary>Sets the stub of HalResourceConverter.ReadJson(JsonReader reader, Type objectType, Object existingValue, JsonSerializer serializer)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>Sets the stub of HalResourceConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.WriteJsonJsonWriterObjectJsonSerializer">
+            <summary>Sets the stub of HalResourceConverter.WriteJson(JsonWriter writer, Object value, JsonSerializer serializer)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanRead">
+            <summary>Sets the stub of JsonConverter.get_CanRead()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.CanWrite">
+            <summary>Sets the stub of JsonConverter.get_CanWrite()</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubHalResourceConverter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter">
+            <summary>Stub type of Hal.WebApi.Formatter.Json.JsonHalMediaTypeFormatter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.AttachBackingFieldToRequiredMemberSelector">
+            <summary>Attaches delegates to emulate StubJsonHalMediaTypeFormatter.RequiredMemberSelector as a property with a backing field.</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CanReadType(System.Type)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CanReadType(Type type)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CanReadTypeType">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CanReadType(Type type)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CanWriteType(System.Type)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CanWriteType(Type type)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CanWriteTypeType">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CanWriteType(Type type)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateDataContractSerializer(System.Type)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateDataContractSerializer(Type type)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateDataContractSerializerType">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateDataContractSerializer(Type type)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonReader(System.Type,System.IO.Stream,System.Text.Encoding)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateJsonReader(Type type, Stream readStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonReaderTypeStreamEncoding">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateJsonReader(Type type, Stream readStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonSerializer">
+            <summary>Sets the stub of BaseJsonMediaTypeFormatter.CreateJsonSerializer()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonSerializer01">
+            <summary>Sets the stub of BaseJsonMediaTypeFormatter.CreateJsonSerializer()</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonWriter(System.Type,System.IO.Stream,System.Text.Encoding)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateJsonWriter(Type type, Stream writeStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CreateJsonWriterTypeStreamEncoding">
+            <summary>Sets the stub of JsonMediaTypeFormatter.CreateJsonWriter(Type type, Stream writeStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of MediaTypeFormatter.GetPerRequestFormatterInstance(Type type, HttpRequestMessage request, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.GetPerRequestFormatterInstanceTypeHttpRequestMessageMediaTypeHeaderValue">
+            <summary>Sets the stub of MediaTypeFormatter.GetPerRequestFormatterInstance(Type type, HttpRequestMessage request, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.InitializeStub">
+            <summary>Initializes a new instance of type StubJsonHalMediaTypeFormatter</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStream(System.Type,System.IO.Stream,System.Text.Encoding,System.Net.Http.Formatting.IFormatterLogger)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.ReadFromStream(Type type, Stream readStream, Encoding effectiveEncoding, IFormatterLogger formatterLogger)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)">
+            <summary>Sets the stub of BaseJsonMediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger,System.Threading.CancellationToken)">
+            <summary>Sets the stub of MediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStreamAsyncTypeStreamHttpContentIFormatterLogger">
+            <summary>Sets the stub of BaseJsonMediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStreamAsyncTypeStreamHttpContentIFormatterLoggerCancellationToken">
+            <summary>Sets the stub of MediaTypeFormatter.ReadFromStreamAsync(Type type, Stream readStream, HttpContent content, IFormatterLogger formatterLogger, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.ReadFromStreamTypeStreamEncodingIFormatterLogger">
+            <summary>Sets the stub of JsonMediaTypeFormatter.ReadFromStream(Type type, Stream readStream, Encoding effectiveEncoding, IFormatterLogger formatterLogger)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.RequiredMemberSelectorGet">
+            <summary>Sets the stub of MediaTypeFormatter.get_RequiredMemberSelector()</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.RequiredMemberSelectorSetIRequiredMemberSelector">
+            <summary>Sets the stub of MediaTypeFormatter.set_RequiredMemberSelector(IRequiredMemberSelector value)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.SetDefaultContentHeaders(System.Type,System.Net.Http.Headers.HttpContentHeaders,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of MediaTypeFormatter.SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.SetDefaultContentHeadersTypeHttpContentHeadersMediaTypeHeaderValue">
+            <summary>Sets the stub of MediaTypeFormatter.SetDefaultContentHeaders(Type type, HttpContentHeaders headers, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStream(System.Type,System.Object,System.IO.Stream,System.Text.Encoding)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.WriteToStream(Type type, Object value, Stream writeStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)">
+            <summary>Sets the stub of MediaTypeFormatter.WriteToStreamAsync(Type type, Object value, Stream writeStream, HttpContent content, TransportContext transportContext)</summary>
+        </member>
+        <member name="M:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of JsonMediaTypeFormatter.WriteToStreamAsync(Type type, Object value, Stream writeStream, HttpContent content, TransportContext transportContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStreamAsyncTypeObjectStreamHttpContentTransportContext">
+            <summary>Sets the stub of MediaTypeFormatter.WriteToStreamAsync(Type type, Object value, Stream writeStream, HttpContent content, TransportContext transportContext)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStreamAsyncTypeObjectStreamHttpContentTransportContextCancellationToken">
+            <summary>Sets the stub of JsonMediaTypeFormatter.WriteToStreamAsync(Type type, Object value, Stream writeStream, HttpContent content, TransportContext transportContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.WriteToStreamTypeObjectStreamEncoding">
+            <summary>Sets the stub of JsonMediaTypeFormatter.WriteToStream(Type type, Object value, Stream writeStream, Encoding effectiveEncoding)</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Hal.WebApi.Formatter.Json.Fakes.StubJsonHalMediaTypeFormatter.RequiredMemberSelector">
+            <summary>Sets the stub of MediaTypeFormatter.get_RequiredMemberSelector()</summary>
+        </member>
+    </members>
+</doc>
