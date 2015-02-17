@@ -6,7 +6,7 @@
     <DefineSolutionProperties>false</DefineSolutionProperties>
 
     <!-- General Paths -->
-    <RootPath>$(MSBuildProjectDirectory)</RootPath>
+    <RootPath>$(MSBuildStartupDirectory)</RootPath>
     <SrcPath>$(RootPath)\src</SrcPath>
     <ReportsPath>$(RootPath)\reports</ReportsPath>
     <Packages>$(SrcPath)\packages</Packages>
