@@ -72,5 +72,6 @@
     </ItemGroup>
     <Message Importance="high" Text="Copying nuget packages..."/>
     <Copy SourceFiles="@(NugetPackages)" DestinationFolder="$(PackageDir)" />
+    <Delete Files="@(NugetPackages)" />
   </Target>
 </Project>
