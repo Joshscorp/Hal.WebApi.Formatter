@@ -21,7 +21,7 @@ else {
   $packages | % { 
       $package = $_.Name
       write-host "Uploading $package"
-      & $nugetpath push -source $package $key
+      & $nugetpath push $package $key
       write-host ""
   }
   popd
