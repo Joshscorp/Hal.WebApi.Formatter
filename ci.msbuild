@@ -68,7 +68,7 @@
   <!-- Copy the Nupkg file to the packages directory -->
   <Target Name="Package" DependsOnTargets="Clean;LoadNuGetPackages;Compile">
      <ItemGroup>
-      <NugetPackages Include="**\Bin\$(Configuration)\Hal.WebApi.Formatter*symbols.nupkg" />
+      <NugetPackages Include="**\Bin\$(Configuration)\Hal.WebApi.Formatter*.nupkg" />
     </ItemGroup>
     <Message Importance="high" Text="Copying nuget packages..."/>
     <Copy SourceFiles="@(NugetPackages)" DestinationFolder="$(PackageDir)" />
