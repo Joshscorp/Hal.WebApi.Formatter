@@ -10,10 +10,13 @@
     <SrcPath>$(RootPath)\src</SrcPath>
     <ReportsPath>$(RootPath)\reports</ReportsPath>
     <Packages>$(SrcPath)\packages</Packages>
+    <PackageDir>$(RootPath)\nugetpackage</PackageDir>
 
     <!-- XUnit Paths -->
     <XUnitPath>$(Packages)\xunit.1.9.2\lib\net20</XUnitPath>
     <XUnitRunner>xunit.runner.msbuild.dll</XUnitRunner>
+    <XUnitConsolePath>$(Packages)\xunit.runners.1.9.2\tools</XUnitConsolePath>
+    <XUnitConsoleRunner>xunit.console.clr4.x86.exe</XUnitConsoleRunner>
   </PropertyGroup>
 
   <!-- The Clean Target -->
@@ -22,9 +25,9 @@
   </ItemGroup>
   <Target Name="Clean">
     <Message Importance="high" Text="Cleaning folders"/>
-    <RemoveDir Directories="$(ReportsPath)" 
+    <RemoveDir Directories="$(ReportsPath);$(PackageDir)" 
                 Condition="Exists('$(ReportsPath)')" />
-    <MakeDir Directories = "$(ReportsPath);$(ReportsPath)\Coverage" />
+    <MakeDir Directories = "$(ReportsPath);$(ReportsPath)\Coverage;$(PackageDir)" />
     <!-- Clean the source code projects -->
     <MSBuild Projects="@(ProjectFiles)"
              ContinueOnError="false"
@@ -58,8 +61,16 @@
     <TestAssemblies Include="..\**\bin\*\*.UnitTest.dll"  />
   </ItemGroup>
   <Target Name="Test" DependsOnTargets="Clean;LoadNuGetPackages;Compile">
-    <Message Importance="high" Text="Running Tests..."/>
+    <Message Importance="high" Text="Running xUnit Tests..."/>
     <xunit Assembly="@(TestAssemblies)" xml="$(ReportsPath)\TestResults.xml"/>
   </Target>
-  
+
+  <!-- Copy the Nupkg file to the packages directory -->
+  <Target Name="Package" DependsOnTargets="Clean;LoadNuGetPackages;Compile">
+     <ItemGroup>
+      <NugetPackages Include="**\Bin\$(Configuration)\Hal.WebApi.Formatter*.nupkg" />
+    </ItemGroup>
+    <Message Importance="high" Text="Copying nuget packages..."/>
+    <Copy SourceFiles="@(NugetPackages)" DestinationFolder="$(PackageDir)" />
+  </Target>
 </Project>

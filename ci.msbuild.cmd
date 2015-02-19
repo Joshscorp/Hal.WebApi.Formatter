@@ -8,7 +8,7 @@ set /p configChoice=Choose your build configuration (Debug = d, Release = r? (d,
 if /i "%configChoice:~,1%" EQU "D" set config=Debug
 if /i "%configChoice:~,1%" EQU "R" set config=Release
 
-%msbuild% ci.msbuild /nologo /m /v:m /t:Test /p:Configuration=%config%
+%msbuild% ci.msbuild /nologo /m /v:m /t:Test;Package /p:Configuration=%config%
 
 pause
 endlocal
