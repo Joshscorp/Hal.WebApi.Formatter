@@ -1,7 +1,7 @@
 $keyfile = "C:\NugetKey\nuget-access-key.txt"
 $scriptpath = split-path -parent $MyInvocation.MyCommand.Path
-$nugetpath = resolve-path "$scriptpath/../lib/nuget/nuget.exe"
-$packagespath = resolve-path "$scriptpath/../build/packages"
+$nugetpath = resolve-path "$scriptpath/src/.nuget/nuget.exe"
+$packagespath = resolve-path "$scriptpath/nugetpackage"
  
 if(-not (test-path $keyfile)) {
   throw "Could not find the NuGet access key at $keyfile. If you're not Josh, you shouldn't be running this script!"
