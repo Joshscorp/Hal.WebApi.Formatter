@@ -18,13 +18,11 @@ else {
   $packages | % { write-host $_.Name }
  
   # upload
-  elseif($result -eq 1) {
-    $packages | % { 
-        $package = $_.Name
-        write-host "Uploading $package"
-        & $nugetpath push -source "http://packages.nuget.org/v1/" $package $key
-        write-host ""
-    }
+  $packages | % { 
+      $package = $_.Name
+      write-host "Uploading $package"
+      & $nugetpath push -source "http://packages.nuget.org/v1/" $package $key
+      write-host ""
   }
   popd
 }
