@@ -1,5 +1,5 @@
 # Hal.WebApi.Formatter
-Hal Formatter for .Net
+Hal Formatter for .Net WebApi
 
 Created based on http://stateless.co/hal_specification.html
 
@@ -32,6 +32,7 @@ This example shows nesting of HalResources with simply a selflink only, but a re
 ```
 HalReservedEmbeddedResources resources = new HalReservedEmbeddedResources();
 string profileKey = "profile";
+string detailKey = "details";
 IEnumerable<HalResource> profileResources = new List<HalResource>()
     {
         new HalResource(new HalLink("www.profileItemA.com")),
